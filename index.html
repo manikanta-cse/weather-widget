@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="weather-widget">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <title>Weather Widget</title>
+   <script src="/angular/angular.min.js"></script>
+   <script src="/angular-route/angular-route.min.js"></script>
+   <script src="/jquery/dist/jquery.min.js"></script>
+   <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="/toastr/toastr.js"></script>
+   <link rel="stylesheet" type="text/scss" href="/toastr/toastr.scss">
+    <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/site.css">
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA91tRY6u34N9tbZdvnYfk_3VZDkzOSNVs&libraries=places"></script>
+<script src="/app.js"></script>
+<script src="/services/googleApiService.js"></script>
+<script src="/directives/googleAddressAutoComplete.js"></script>
+<script src="/services/weatherService.js"></script>
+<script src="/controllers/weatherCtrl.js"></script>
+</head>
+<body>
+
+<div  ng-view>
+
+</div>
+
+
+</body>
+</html>
